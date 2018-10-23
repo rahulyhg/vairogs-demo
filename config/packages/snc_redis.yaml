@@ -1,0 +1,43 @@
+snc_redis:
+    clients:
+        default:
+            type: predis
+            alias: session
+            dsn: redis://palidziba@redis
+            options:
+                connection_persistent: true
+                prefix: vairogs_session_
+            logging: true
+        cache:
+            type: predis
+            alias: cache
+            dsn: redis://palidziba@redis/1
+            options:
+                connection_persistent: true
+                prefix: vairogs_cache_
+            logging: true
+        meta:
+            type: predis
+            alias: meta
+            dsn: redis://palidziba@redis/2
+            options:
+                connection_persistent: true
+                prefix: vairogs_meta_
+            logging: true
+    session:
+        client: session
+        prefix: session_vairogs_
+    doctrine:
+        metadata_cache:
+            client: meta
+            entity_manager: default
+            document_manager: default
+        result_cache:
+            client: cache
+            entity_manager: default
+        query_cache:
+            client: cache
+            entity_manager: default
+        second_level_cache:
+            client: cache
+            entity_manager: default
