@@ -1,0 +1,16 @@
+app.swagger:
+    path: /api/doc.json
+    methods:
+        - GET
+        - PUT
+        - POST
+        - DELETE
+        - PATCH
+    defaults:
+        _controller: nelmio_api_doc.controller.swagger
+
+app.swagger_ui:
+    path: /api/doc
+    methods: GET
+    defaults:
+        _controller: nelmio_api_doc.controller.swagger_ui
