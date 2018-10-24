@@ -23,9 +23,11 @@
         "symfony/templating": "*",
         "symfony/translation": "*",
         "symfony/validator": "*",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+        "vairogs/vairogs": "dev-master"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "symfony/browser-kit": "*",
         "symfony/css-selector": "*",
         "symfony/maker-bundle": "^1.8",
@@ -76,5 +78,7 @@
             "allow-contrib": true,
             "require": "4.1.*"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

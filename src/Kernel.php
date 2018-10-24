@@ -14,6 +14,7 @@ class Kernel extends BaseKernel
     use MicroKernelTrait;
 
     public const CONFIG_EXTS = '.{php,xml,yaml,yml}';
+    public const DEMO_NAME = 'DEMO';
 
     public function getCacheDir()
     {
@@ -61,14 +62,19 @@ class Kernel extends BaseKernel
 
     protected function registerVersion(ContainerBuilder $container)
     {
-        $packages = \json_decode(\file_get_contents('../vendor/composer/installed.json'), true);
+        $packages = \json_decode(\file_get_contents($this->getProjectDir().'/vendor/composer/installed.json'), true);
         foreach ($packages as $package) {
             if ($package['name'] === 'vairogs/vairogs') {
                 $container->setParameter('vairogs.version', $package['version']);
+                $container->setParameter('vairogs.subtitle', $package['description']);
+                $container->setParameter('vairogs.title', $package['extra']['title'] ?? self::DEMO_NAME);
+
                 return;
             }
         }
 
         $container->setParameter('vairogs.version', self::VERSION);
+        $container->setParameter('vairogs.subtitle', '');
+        $container->setParameter('vairogs.title', self::DEMO_NAME);
     }
 }
