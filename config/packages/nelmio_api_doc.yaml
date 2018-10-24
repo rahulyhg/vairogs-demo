@@ -1,9 +1,9 @@
 nelmio_api_doc:
     documentation:
         info:
-            title: Vairogs
-            description: Real Latvian CMS
-            version: 0.0.1
+            title: '%vairogs.title%'
+            description: '%vairogs.subtitle%'
+            version: '%vairogs.version%'
     areas:
         path_patterns:
             - ^/api(?!/doc$)

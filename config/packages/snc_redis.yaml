@@ -3,7 +3,7 @@ snc_redis:
         default:
             type: predis
             alias: session
-            dsn: redis://palidziba@redis
+            dsn: '%env(resolve:REDIS_URL)%/10'
             options:
                 connection_persistent: true
                 prefix: vairogs_session_
@@ -11,7 +11,7 @@ snc_redis:
         cache:
             type: predis
             alias: cache
-            dsn: redis://palidziba@redis/1
+            dsn: '%env(resolve:REDIS_URL)%/11'
             options:
                 connection_persistent: true
                 prefix: vairogs_cache_
@@ -19,7 +19,7 @@ snc_redis:
         meta:
             type: predis
             alias: meta
-            dsn: redis://palidziba@redis/2
+            dsn: '%env(resolve:REDIS_URL)%/12'
             options:
                 connection_persistent: true
                 prefix: vairogs_meta_

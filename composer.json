@@ -1,4 +1,5 @@
 {
+    "name": "vairogs/vairogs-demo",
     "type": "project",
     "license": "proprietary",
     "require": {
