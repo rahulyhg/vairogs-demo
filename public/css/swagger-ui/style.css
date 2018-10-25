@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     overflow: -moz-scrollbars-vertical;
     overflow-y: scroll;
+    background: #e5e5e5 url(../../images/swagger-ui/bg.png) repeat;
 }
 
 *,
@@ -12,7 +13,6 @@ html {
 
 body {
     margin: 0;
-    background: #f0f0f0;
 }
 
 /** HEADER **/
@@ -82,7 +82,7 @@ body {
 }
 
 #swagger-ui.api-platform .opblock.opblock-patch .opblock-summary-method {
-    background-color: #17a2b8;
+    background-color: #00ffff;
 }
 
 #swagger-ui.api-platform .opblock.opblock-get .opblock-summary {
@@ -106,7 +106,7 @@ body {
 }
 
 #swagger-ui.api-platform .opblock.opblock-patch .opblock-summary {
-    border-color: #17a2b8;
+    border-color: #00ffff;
 }
 
 #swagger-ui.api-platform .opblock-summary-method {
@@ -149,7 +149,7 @@ body {
 }
 
 #swagger-ui.api-platform .opblock.opblock-patch .opblock-section-header {
-    background-color: rgba(23,162,184, 0.4);
+    background-color: rgba(0,255,255, 0.4);
 }
 
 #swagger-ui.api-platform .opblock {
@@ -179,15 +179,19 @@ body {
 /** BUTTONS **/
 
 #swagger-ui.api-platform .btn.execute {
-    background-color: #3CAAB5;
-    border-color: #3CAAB5;
+    background-color: #28a745;
+    border-color: #28a745;
     animation: none;
     transition: all ease 0.3s;
 }
 
+.swagger-ui textarea.curl, .swagger-ui .opblock-body pre {
+    background-color: #232323;
+}
+
 #swagger-ui.api-platform .btn.execute:hover {
-    background-color: #288690;
-    border-color: #288690;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 #swagger-ui.api-platform .execute-wrapper {
@@ -209,19 +213,22 @@ body {
     padding: 10px 40px;
 }
 
+.swagger-ui select {
+    background: #ffffff;
+}
+
 #swagger-ui.api-platform .btn {
     transition: all ease 0.2s;
     box-shadow: none;
-    background-color: #f7f7f7
+    background-color: #ffffff
 }
 
 #swagger-ui.api-platform .btn:hover {
-    background-color: rgba(65, 68, 78, 0.1);
-    border-color: transparent;
+    background-color: transparent;
 }
 
 #swagger-ui.api-platform .btn.cancel:hover {
-    background-color: rgba(237, 106, 90, 0.1);
+    background-color: transparent;
 }
 
 #swagger-ui.api-platform .btn.authorize:hover {
