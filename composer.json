@@ -23,6 +23,7 @@
         "symfony/templating": "*",
         "symfony/translation": "*",
         "symfony/validator": "*",
+        "symfony/web-link": "*",
         "symfony/yaml": "*",
         "vairogs/vairogs": "dev-master"
     },

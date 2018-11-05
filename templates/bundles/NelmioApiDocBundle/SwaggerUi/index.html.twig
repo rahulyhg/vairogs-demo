@@ -7,7 +7,7 @@
     <title>{% block title %}{{ swagger_data.spec.info.title }}{% endblock title %}</title>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('bundles/nelmioapidoc/swagger-ui/swagger-ui.css') }}">
+        <link rel="stylesheet" href="{{ preload(asset('bundles/nelmioapidoc/swagger-ui/swagger-ui.css')) }}">
         <link rel="stylesheet" href="{{ asset('css/swagger-ui/style.css') }}">
     {% endblock stylesheets %}
 
