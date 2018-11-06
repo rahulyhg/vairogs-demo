@@ -7,5 +7,3 @@ nelmio_api_doc:
     areas:
         path_patterns:
             - ^/api(?!/doc$)
-#        host_patterns:
-#            - ^api\.
