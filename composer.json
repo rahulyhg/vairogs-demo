@@ -25,7 +25,8 @@
         "symfony/validator": "*",
         "symfony/web-link": "*",
         "symfony/yaml": "*",
-        "vairogs/vairogs": "dev-master"
+        "vairogs/vairogs": "dev-master",
+        "vairogs/vairogs-captcha": "dev-master"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
