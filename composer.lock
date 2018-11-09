@@ -4703,12 +4703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k0d3r1s/vairogs-captcha.git",
-                "reference": "d2ed50b031ad3bb40d7002ec4e916be31d82fd10"
+                "reference": "c0920d79023fb1a78bbb96488e8b30ca43afee77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k0d3r1s/vairogs-captcha/zipball/d2ed50b031ad3bb40d7002ec4e916be31d82fd10",
-                "reference": "d2ed50b031ad3bb40d7002ec4e916be31d82fd10",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-captcha/zipball/c0920d79023fb1a78bbb96488e8b30ca43afee77",
+                "reference": "c0920d79023fb1a78bbb96488e8b30ca43afee77",
                 "shasum": ""
             },
             "require": {
@@ -4753,7 +4753,7 @@
                 "symfony",
                 "vairogs"
             ],
-            "time": "2018-11-08T15:58:42+00:00"
+            "time": "2018-11-08T16:10:52+00:00"
         },
         {
             "name": "vairogs/vairogs-core",
@@ -4761,12 +4761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k0d3r1s/vairogs-core.git",
-                "reference": "348c9525407a5a63f40e8d85322c869a9bd2ef97"
+                "reference": "5dc6fbf7ee1b58f0c7ebd62fb46d475875937a82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k0d3r1s/vairogs-core/zipball/348c9525407a5a63f40e8d85322c869a9bd2ef97",
-                "reference": "348c9525407a5a63f40e8d85322c869a9bd2ef97",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-core/zipball/5dc6fbf7ee1b58f0c7ebd62fb46d475875937a82",
+                "reference": "5dc6fbf7ee1b58f0c7ebd62fb46d475875937a82",
                 "shasum": ""
             },
             "require": {
@@ -4821,7 +4821,7 @@
                 "symfony",
                 "vairogs"
             ],
-            "time": "2018-11-07T20:35:36+00:00"
+            "time": "2018-11-08T16:10:31+00:00"
         },
         {
             "name": "webmozart/assert",
