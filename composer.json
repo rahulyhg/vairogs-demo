@@ -26,7 +26,12 @@
         "symfony/web-link": "*",
         "symfony/yaml": "*",
         "vairogs/vairogs": "dev-master",
-        "vairogs/vairogs-captcha": "dev-master"
+        "vairogs/vairogs-captcha": "dev-master",
+        "vairogs/vairogs-core": "dev-master",
+        "vairogs/vairogs-guzzle": "dev-master",
+        "vairogs/vairogs-position": "dev-master",
+        "vairogs/vairogs-search": "dev-master",
+        "vairogs/vairogs-sitemap": "dev-master"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
