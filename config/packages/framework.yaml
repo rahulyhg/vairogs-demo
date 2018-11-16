@@ -5,5 +5,7 @@ framework:
     http_method_override: true
     session:
         handler_id: snc_redis.session.handler
+        gc_probability: 1
+        gc_divisor: 100
     php_errors:
         log: true

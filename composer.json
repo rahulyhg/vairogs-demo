@@ -29,9 +29,11 @@
         "vairogs/vairogs-captcha": "dev-master",
         "vairogs/vairogs-core": "dev-master",
         "vairogs/vairogs-guzzle": "dev-master",
+        "vairogs/vairogs-oauth": "dev-master",
         "vairogs/vairogs-position": "dev-master",
         "vairogs/vairogs-search": "dev-master",
-        "vairogs/vairogs-sitemap": "dev-master"
+        "vairogs/vairogs-sitemap": "dev-master",
+        "vairogs/vairogs-translatable": "dev-master"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",

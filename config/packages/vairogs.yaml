@@ -1,2 +1,3 @@
 vairogs:
-
+    utils:
+        translatable: true
