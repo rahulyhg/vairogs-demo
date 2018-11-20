@@ -1,3 +1,9 @@
 vairogs:
     utils:
         translatable: true
+        guzzle:
+            profiler: "%kernel.debug%"
+            logger: "%kernel.debug%"
+            redis_client: cache
+            cache:
+                adapter: vairogs.utils.guzzle.cache_adapter.redis

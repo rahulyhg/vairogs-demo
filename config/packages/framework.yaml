@@ -9,3 +9,8 @@ framework:
         gc_divisor: 100
     php_errors:
         log: true
+    cache:
+        app: cache.adapter.redis
+        system: cache.adapter.redis
+        default_redis_provider: snc_redis.cache
+        prefix_seed: vairogs

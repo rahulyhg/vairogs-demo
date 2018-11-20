@@ -10,6 +10,7 @@
         "predis/predis": "^1.1",
         "snc/redis-bundle": "^2.1",
         "symfony/asset": "*",
+        "symfony/cache": "*",
         "symfony/console": "*",
         "symfony/dotenv": "*",
         "symfony/flex": "^1.1",
@@ -24,15 +25,18 @@
         "symfony/translation": "*",
         "symfony/validator": "*",
         "symfony/web-link": "*",
+        "symfony/webpack-encore-bundle": "^1.0",
         "symfony/yaml": "*",
         "vairogs/vairogs": "dev-master"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
+        "steevanb/symfony-container-introspection": "^1.1.1",
         "symfony/browser-kit": "*",
         "symfony/css-selector": "*",
         "symfony/maker-bundle": "^1.8",
         "symfony/phpunit-bridge": "*",
+        "symfony/debug-pack": "^1.0",
         "symfony/profiler-pack": "^1.0"
     },
     "config": {
