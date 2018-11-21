@@ -1,9 +1,12 @@
 vairogs:
     utils:
         translatable: true
+        core:
+            php_functions:
+                - random_int
         guzzle:
             profiler: "%kernel.debug%"
             logger: "%kernel.debug%"
-            redis_client: cache
+            redis_client: snc_redis.cache
             cache:
                 adapter: vairogs.utils.guzzle.cache_adapter.redis

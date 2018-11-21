@@ -24,6 +24,18 @@ snc_redis:
                 connection_persistent: true
                 prefix: vairogs_meta_
             logging: true
+        cluster:
+            type: predis
+            alias: cluster
+            dsn:
+                - '%env(resolve:REDIS_URL)%/13?weight=10'
+                - '%env(resolve:REDIS_URL2)%/13?weight=5'
+                - '%env(resolve:REDIS_URL3)%/13?weight=1'
+            options:
+                connection_persistent: true
+                prefix: vairogs_cluster_
+                replication: true
+            logging: true
     session:
         client: session
         prefix: session_vairogs_

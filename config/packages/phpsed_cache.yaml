@@ -2,4 +2,3 @@ phpsed_cache:
     enabled: false
     providers:
         - snc_redis.cache
-        - doctrine.orm.default_entity_manager
