@@ -14,3 +14,17 @@ services:
     App\Controller\:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
+
+    App\Service\Guzzle:
+        arguments:
+            -
+                verify: false
+                exceptions: false
+                on_stats:
+                    - '@vairogs.utils.guzzle.data_collector.history_bag'
+                    - 'addStats'
+        tags:
+            -
+                name: vairogs.utils.guzzle.client
+                middleware: '!cache'
+

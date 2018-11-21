@@ -7,6 +7,6 @@ vairogs:
         guzzle:
             profiler: "%kernel.debug%"
             logger: "%kernel.debug%"
-            redis_client: snc_redis.cache
+            redis_client: snc_redis.guzzle
             cache:
                 adapter: vairogs.utils.guzzle.cache_adapter.redis

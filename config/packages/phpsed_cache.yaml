@@ -1,4 +1,4 @@
 phpsed_cache:
-    enabled: false
+    enabled: true
     providers:
-        - snc_redis.cache
+        - snc_redis.cluster

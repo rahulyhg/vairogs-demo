@@ -3,38 +3,77 @@ snc_redis:
         default:
             type: predis
             alias: session
-            dsn: '%env(resolve:REDIS_URL)%/10'
+            dsn:
+                - '%env(resolve:REDIS_URL1)%'
+                - '%env(resolve:REDIS_URL2)%'
             options:
                 connection_persistent: true
+                replication: sentinel
+                service: mymaster
+                throw_errors: true
+                parameters:
+                    database: 10
                 prefix: vairogs_session_
             logging: true
         cache:
             type: predis
             alias: cache
-            dsn: '%env(resolve:REDIS_URL)%/11'
+            dsn:
+                - '%env(resolve:REDIS_URL1)%'
+                - '%env(resolve:REDIS_URL2)%'
             options:
                 connection_persistent: true
+                replication: sentinel
+                service: mymaster
+                throw_errors: true
+                parameters:
+                    database: 11
                 prefix: vairogs_cache_
             logging: true
         meta:
             type: predis
             alias: meta
-            dsn: '%env(resolve:REDIS_URL)%/12'
+            dsn:
+                - '%env(resolve:REDIS_URL1)%'
+                - '%env(resolve:REDIS_URL2)%'
             options:
                 connection_persistent: true
+                replication: sentinel
+                service: mymaster
+                throw_errors: true
+                parameters:
+                    database: 12
                 prefix: vairogs_meta_
+            logging: true
+        guzzle:
+            type: predis
+            alias: guzzle
+            dsn:
+                - '%env(resolve:REDIS_URL1)%'
+                - '%env(resolve:REDIS_URL2)%'
+            options:
+                connection_persistent: true
+                replication: sentinel
+                service: mymaster
+                throw_errors: true
+                parameters:
+                    database: 14
+                prefix: vairogs_guzzle_
             logging: true
         cluster:
             type: predis
             alias: cluster
             dsn:
-                - '%env(resolve:REDIS_URL)%/13?weight=10'
-                - '%env(resolve:REDIS_URL2)%/13?weight=5'
-                - '%env(resolve:REDIS_URL3)%/13?weight=1'
+                - '%env(resolve:REDIS_URL1)%'
+                - '%env(resolve:REDIS_URL2)%'
             options:
                 connection_persistent: true
+                replication: sentinel
+                service: mymaster
+                throw_errors: true
+                parameters:
+                    database: 13
                 prefix: vairogs_cluster_
-                replication: true
             logging: true
     session:
         client: session
