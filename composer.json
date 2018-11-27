@@ -48,7 +48,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Phpsed\\TranslationBundle\\": "vendor/phpsed/translation-bundle/src",
+            "Phpsed\\TranslationBundle\\Bridge\\": "vendor/phpsed/translation-bundle-sonata-bridge/src"
         }
     },
     "autoload-dev": {

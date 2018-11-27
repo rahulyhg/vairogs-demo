@@ -12,6 +12,6 @@ security:
         -
             path: ^/_profiler/(phpinfo|open)
             roles: ROLE_PHPINFO
-        -
-            path: ^/admin
-            roles: ROLE_ADMIN
+#        -
+#            path: ^/admin
+#            roles: ROLE_ADMIN
