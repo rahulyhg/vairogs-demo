@@ -4027,16 +4027,16 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "4a33574d5771f4b04334cd4f7d43de96a92efb62"
+                "reference": "3edf0ab943d1985a356721952cba36ff31bd6e5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/4a33574d5771f4b04334cd4f7d43de96a92efb62",
-                "reference": "4a33574d5771f4b04334cd4f7d43de96a92efb62",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/3edf0ab943d1985a356721952cba36ff31bd6e5f",
+                "reference": "3edf0ab943d1985a356721952cba36ff31bd6e5f",
                 "shasum": ""
             },
             "require": {
@@ -4091,7 +4091,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-10-31T08:00:32+00:00"
+            "time": "2018-11-24T09:35:08+00:00"
         },
         {
             "name": "symfony/debug",
@@ -7090,12 +7090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k0d3r1s/vairogs-core.git",
-                "reference": "8c7bcfce9bba594feb7ac044dcf38627851bf452"
+                "reference": "d4ff00bc31be5738b8cd59f530a112c10292c387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k0d3r1s/vairogs-core/zipball/8c7bcfce9bba594feb7ac044dcf38627851bf452",
-                "reference": "8c7bcfce9bba594feb7ac044dcf38627851bf452",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-core/zipball/d4ff00bc31be5738b8cd59f530a112c10292c387",
+                "reference": "d4ff00bc31be5738b8cd59f530a112c10292c387",
                 "shasum": ""
             },
             "require": {
@@ -7149,7 +7149,7 @@
                 "symfony",
                 "vairogs"
             ],
-            "time": "2018-11-28T19:34:57+00:00"
+            "time": "2018-12-02T20:06:19+00:00"
         },
         {
             "name": "vairogs/vairogs-guzzle",
@@ -7535,12 +7535,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k0d3r1s/vairogs-utils.git",
-                "reference": "02c2455dec7c8b24beec21a66c0959b09c121995"
+                "reference": "7a8e0dc93f5f94ac51c5486a900457223e2b14e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k0d3r1s/vairogs-utils/zipball/02c2455dec7c8b24beec21a66c0959b09c121995",
-                "reference": "02c2455dec7c8b24beec21a66c0959b09c121995",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-utils/zipball/7a8e0dc93f5f94ac51c5486a900457223e2b14e8",
+                "reference": "7a8e0dc93f5f94ac51c5486a900457223e2b14e8",
                 "shasum": ""
             },
             "require": {
@@ -7576,7 +7576,7 @@
                 "utils",
                 "vairogs"
             ],
-            "time": "2018-11-28T19:36:39+00:00"
+            "time": "2018-12-01T22:23:39+00:00"
         },
         {
             "name": "webmozart/assert",

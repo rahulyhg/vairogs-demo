@@ -27,3 +27,9 @@ DirectoryIndex index.php
         RedirectMatch 307 ^/$ /index.php/
     </IfModule>
 </IfModule>
+
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header always append X-Frame-Options SAMEORIGIN
+    Header set X-Content-Type-Options nosniff
+</IfModule>
