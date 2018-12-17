@@ -14,7 +14,7 @@ snc_redis:
                 parameters:
                     database: 10
                 prefix: vairogs_session_
-            logging: true
+            logging: false
         cache:
             type: predis
             alias: cache
@@ -29,7 +29,7 @@ snc_redis:
                 parameters:
                     database: 11
                 prefix: vairogs_cache_
-            logging: true
+            logging: false
         meta:
             type: predis
             alias: meta
@@ -44,7 +44,7 @@ snc_redis:
                 parameters:
                     database: 12
                 prefix: vairogs_meta_
-            logging: true
+            logging: false
         guzzle:
             type: predis
             alias: guzzle
@@ -74,7 +74,7 @@ snc_redis:
                 parameters:
                     database: 13
                 prefix: vairogs_cluster_
-            logging: true
+            logging: false
     session:
         client: session
         prefix: session_vairogs_
