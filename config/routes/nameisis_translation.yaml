@@ -1,3 +1,2 @@
 nameisis_translation_:
     resource: "@NameisisTranslationBundle/Resources/config/routing.yaml"
-    prefix: /nameisis

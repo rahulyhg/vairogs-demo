@@ -10,9 +10,6 @@ return [
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
     Snc\RedisBundle\SncRedisBundle::class => ['all' => true],
     Nelmio\ApiDocBundle\NelmioApiDocBundle::class => ['all' => true],
-//    Vairogs\Utils\VairogsBundle::class => ['all' => true],
-//    JMS\I18nRoutingBundle\JMSI18nRoutingBundle::class => ['all' => true],
-//    Lexik\Bundle\TranslationBundle\LexikTranslationBundle::class => ['all' => true],
     Sonata\DatagridBundle\SonataDatagridBundle::class => ['all' => true],
     Sonata\CoreBundle\SonataCoreBundle::class => ['all' => true],
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
@@ -26,5 +23,4 @@ return [
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
     Symfony\Bundle\DebugBundle\DebugBundle::class => ['dev' => true, 'test' => true],
     Nameisis\TranslationBundle\NameisisTranslationBundle::class => ['all' => true],
-//    Phpsed\TranslationBundle\Bridge\PhpsedTranslationBundleBridge::class => ['all' => true],
 ];

@@ -2,13 +2,21 @@
 
 use App\CacheKernel;
 use App\Kernel;
+use SecureEnvPHP\SecureEnvPHP;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\HttpFoundation\Request;
 
 require __DIR__.'/../vendor/autoload.php';
 
-(new Dotenv())->load(__DIR__.'/../.env');
+if (\file_exists(__DIR__.'/../.env.enc')) {
+    new SecureEnvPHP([
+        'path' => __DIR__.'/../.env.enc',
+        'secret' => '0e2d1e993497adb740ffe7954f4ef32e',
+    ]);
+} else {
+    (new Dotenv())->load(__DIR__.'/../.env');
+}
 
 $env = $_SERVER['APP_ENV'] ?? 'prod';
 $debug = (bool)($_SERVER['APP_DEBUG'] ?? ('prod' !== $env));
