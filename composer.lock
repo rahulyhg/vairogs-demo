@@ -2344,12 +2344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nameisis/translation-bundle.git",
-                "reference": "5fdfbe5cb73a04971971b04d1a8844f4dde654a1"
+                "reference": "07ab8e2c30737a58104dcf10b5d6a672bec44636"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nameisis/translation-bundle/zipball/5fdfbe5cb73a04971971b04d1a8844f4dde654a1",
-                "reference": "5fdfbe5cb73a04971971b04d1a8844f4dde654a1",
+                "url": "https://api.github.com/repos/nameisis/translation-bundle/zipball/07ab8e2c30737a58104dcf10b5d6a672bec44636",
+                "reference": "07ab8e2c30737a58104dcf10b5d6a672bec44636",
                 "shasum": ""
             },
             "require": {
@@ -2383,7 +2383,7 @@
                 "symfony",
                 "translation"
             ],
-            "time": "2018-12-17T15:43:03+00:00"
+            "time": "2018-12-19T17:44:37+00:00"
         },
         {
             "name": "nelmio/api-doc-bundle",
@@ -3541,16 +3541,16 @@
         },
         {
             "name": "sonata-project/core-bundle",
-            "version": "3.13.5",
+            "version": "3.13.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "bd7a5f763cbd024aff80a6d1d86f5d89311ae07a"
+                "reference": "8c9fb61c8a1e93ffb49d689cdccb9f5a536dd376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/bd7a5f763cbd024aff80a6d1d86f5d89311ae07a",
-                "reference": "bd7a5f763cbd024aff80a6d1d86f5d89311ae07a",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/8c9fb61c8a1e93ffb49d689cdccb9f5a536dd376",
+                "reference": "8c9fb61c8a1e93ffb49d689cdccb9f5a536dd376",
                 "shasum": ""
             },
             "require": {
@@ -3618,7 +3618,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2018-12-19T06:46:39+00:00"
+            "time": "2018-12-20T13:12:20+00:00"
         },
         {
             "name": "sonata-project/datagrid-bundle",
@@ -7233,12 +7233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k0d3r1s/vairogs-core.git",
-                "reference": "d4ff00bc31be5738b8cd59f530a112c10292c387"
+                "reference": "c7382b1189cb9d675d660c4df04c84ba60c75b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k0d3r1s/vairogs-core/zipball/d4ff00bc31be5738b8cd59f530a112c10292c387",
-                "reference": "d4ff00bc31be5738b8cd59f530a112c10292c387",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-core/zipball/c7382b1189cb9d675d660c4df04c84ba60c75b23",
+                "reference": "c7382b1189cb9d675d660c4df04c84ba60c75b23",
                 "shasum": ""
             },
             "require": {
@@ -7247,7 +7247,6 @@
                 "doctrine/orm": "^2.6",
                 "ext-pdo": "*",
                 "ext-xml": "*",
-                "lcobucci/jwt": "^3.2",
                 "php": "^7.1.3",
                 "predis/predis": "^1.1",
                 "psr/http-message": "^1",
@@ -7292,7 +7291,7 @@
                 "symfony",
                 "vairogs"
             ],
-            "time": "2018-12-02T20:06:19+00:00"
+            "time": "2018-12-20T14:35:05+00:00"
         },
         {
             "name": "vairogs/vairogs-guzzle",
@@ -7360,12 +7359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k0d3r1s/vairogs-oauth.git",
-                "reference": "937459ded76b36acab3a59c059a78830cac4f076"
+                "reference": "ce8ee54c540eb2b7d6cdcd73e9bc925de44dcb70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k0d3r1s/vairogs-oauth/zipball/937459ded76b36acab3a59c059a78830cac4f076",
-                "reference": "937459ded76b36acab3a59c059a78830cac4f076",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-oauth/zipball/ce8ee54c540eb2b7d6cdcd73e9bc925de44dcb70",
+                "reference": "ce8ee54c540eb2b7d6cdcd73e9bc925de44dcb70",
                 "shasum": ""
             },
             "require": {
@@ -7383,7 +7382,8 @@
                 "symfony/http-foundation": "*",
                 "symfony/http-kernel": "*",
                 "symfony/routing": "*",
-                "vairogs/vairogs-core": "dev-master"
+                "vairogs/vairogs-core": "dev-master",
+                "vairogs/vairogs-specification": "dev-master"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -7415,7 +7415,7 @@
                 "symfony",
                 "vairogs"
             ],
-            "time": "2018-11-16T15:55:16+00:00"
+            "time": "2018-12-20T10:49:50+00:00"
         },
         {
             "name": "vairogs/vairogs-position",
@@ -7599,6 +7599,49 @@
                 "vairogs"
             ],
             "time": "2018-11-16T15:16:45+00:00"
+        },
+        {
+            "name": "vairogs/vairogs-specification",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/k0d3r1s/vairogs-specification.git",
+                "reference": "323574d8f74c967694cf6240cccdfa8aa9b93cd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/k0d3r1s/vairogs-specification/zipball/323574d8f74c967694cf6240cccdfa8aa9b93cd4",
+                "reference": "323574d8f74c967694cf6240cccdfa8aa9b93cd4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vairogs\\Utils\\Specification\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "k0d3r1s",
+                    "homepage": "https://github.com/k0d3r1s",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Real Latvian CMS Utils: Specification utils",
+            "keywords": [
+                "specification",
+                "symfony",
+                "utils",
+                "vairogs"
+            ],
+            "time": "2018-12-20T14:38:40+00:00"
         },
         {
             "name": "vairogs/vairogs-translatable",
@@ -8540,16 +8583,16 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "aa37ea1323ac888913bdd3e5f83d846798729449"
+                "reference": "584289df4c7781eaf2b0f9b785d93520a5d06b21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/aa37ea1323ac888913bdd3e5f83d846798729449",
-                "reference": "aa37ea1323ac888913bdd3e5f83d846798729449",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/584289df4c7781eaf2b0f9b785d93520a5d06b21",
+                "reference": "584289df4c7781eaf2b0f9b785d93520a5d06b21",
                 "shasum": ""
             },
             "require": {
@@ -8602,7 +8645,7 @@
                 "scaffold",
                 "scaffolding"
             ],
-            "time": "2018-12-13T18:54:47+00:00"
+            "time": "2018-12-20T15:46:56+00:00"
         },
         {
             "name": "symfony/monolog-bridge",
