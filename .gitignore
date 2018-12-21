@@ -5,6 +5,7 @@
 /var/
 /vendor/
 symfony.lock
+/.env.enc
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
